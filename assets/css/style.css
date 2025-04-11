@@ -107,7 +107,7 @@ li {
 }
 
 img,
-ion-icon,
+i,
 a,
 button,
 time,
@@ -526,6 +526,9 @@ main {
 }
 
 .about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -534,6 +537,24 @@ main {
 
 .about-text p {
   margin-bottom: 15px;
+}
+
+.resume-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--border-gradient-onyx);
+  width: 50%;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.resume-box i {
+  margin-right: 5px;
+  color: var(--orange-yellow-crayola);
 }
 
 
