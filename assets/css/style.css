@@ -415,6 +415,12 @@ main {
   visibility: visible;
 }
 
+.info_content-titles{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -1387,7 +1393,6 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 450px) {
-
   /**
    * client
    */
